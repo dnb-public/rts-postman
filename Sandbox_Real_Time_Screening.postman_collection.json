@@ -1,0 +1,1415 @@
+{
+  "info": {
+    "_postman_id": "09c2ec09-b8e9-4e26-a889-1f7bfbca836d",
+    "name": "Sandbox Real Time Screening",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "21455582",
+    "_collection_link": "https://go.postman.co/collection/21455582-09c2ec09-b8e9-4e26-a889-1f7bfbca836d?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Person Screening",
+      "item": [
+        {
+          "name": "No Hit 1",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"test_case_57\",\n    \"natIdNo\": \"202609162397\",\n    \"name\": \"test case 57 name\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "No Hit 2",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"test_case_58\",\n    \"natIdNo\": \"202609172388\",\n    \"name\": \"test case 58 name\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP 125",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"Test\",\n    \"natIdNo\": \"202609172396\",\n    \"name\": \"Alex PEP\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP 165",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"Test\",\n    \"natIdNo\": \"202609182387\",\n    \"name\": \"TOM PEP\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP 175",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"Test\",\n    \"natIdNo\": \"202609182395\",\n    \"name\": \"MALIN KRISTINE PEP\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP 500",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"Test\",\n    \"natIdNo\": \"202609202383\",\n    \"name\": \"ANNE KRISTINE PEP\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Sanction 125",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"test_case_66\",\n    \"natIdNo\": \"202609192394\",\n    \"name\": \"test case 66 name\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Sanction 175",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"test_case_75\",\n    \"natIdNo\": \"202609192386\",\n    \"name\": \"test case 75 name\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP & Sanction 125",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"test_case_60\",\n    \"natIdNo\": \"202609212382\",\n    \"name\": \"test case 60 name\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP & Sanction 175",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"SE\",\n    \"reference\": \"test_case_59\",\n    \"natIdNo\": \"202609202391\",\n    \"name\": \"test case 59 name\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP SE 2",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"James Roslund\",\r\n\t\"birthDate\": \"1957-01-13\",\r\n\t\"nationality\": \"SE\",\r\n\t\"natIdNo\" : \"SE195701136771\",\r\n\t\"reference\": \"Test Screenings\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Sanction NO",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Nils Nilsen\",\r\n\t\"birthDate\": \"1986-07-07\",\r\n\t\"nationality\": \"NO\",\r\n\t\"reference\": \"Test Screenings\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "AdverseMedia TH",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Suchart Arthit Sakchai\",\r\n\t\"nationality\": \"TH\",\r\n\t\"reference\": \"Test Screenings\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP SE",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Ingemar Noord\",\r\n\t\"birthDate\": \"1969-07-07\",\r\n\t\"nationality\": \"SE\",\r\n\t\"reference\": \"Test Screenings\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP PL",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Seweryna Pawlak\",\r\n\t\"birthDate\": \"1979-08-02\",\r\n\t\"nationality\": \"PL\",\r\n\t\"reference\": \"Test Screenings\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PEP US",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n\t\"name\": \"Steven Madrigal\",\r\n\t\"birthDate\": \"1968-04-18\",\r\n\t\"nationality\": \"US\",\r\n\t\"reference\": \"Test Screenings\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609172388",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"test case 58 name\",\r\n    \"natIdNo\": \"202609172388\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"test_case_58\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609172396",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Alex PEP\",\r\n    \"natIdNo\": \"202609172396\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"Test\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609182387",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"TOM PEP\",\r\n    \"natIdNo\": \"202609182387\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"Test\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609182395",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"MALIN KRISTINE PEP\",\r\n    \"natIdNo\": \"202609182395\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"Test\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609202383",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"ANNE KRISTINE PEP\",\r\n    \"natIdNo\": \"202609202383\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"Test\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609192386",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"test case 75 name\",\r\n    \"natIdNo\": \"202609192386\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"test_case_75\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609192394",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"test case 66 name\",\r\n    \"natIdNo\": \"202609192394\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"test_case_66\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609202391",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"test case 59 name\",\r\n    \"natIdNo\": \"202609202391\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"test_case_59\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609212382",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"test case 60 name\",\r\n    \"natIdNo\": \"202609212382\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"test_case_60\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "202609162397",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"test case 57 name\",\r\n    \"natIdNo\": \"202609162397\",\r\n    \"nationality\": \"SE\",\r\n    \"reference\": \"test_case_57\"\r\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/person/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "person",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Company Screening (NO)",
+      "item": [
+        {
+          "name": "Company 210129812",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"210129812\",\n    \"dunsNo\": \"730123846\",\n    \"name\": \"SPETTETE INNSIKTSFULL HUND DA\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 310163449",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"310163449\",\n    \"dunsNo\": \"730625522\",\n    \"name\": \"SENTRAL UKLAR PUMA\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 310211036",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"310211036\",\n    \"dunsNo\": \"730348414\",\n    \"name\": \"POMPØS KNUSLETE LEOPARD ASA\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 310219622",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"310219622\",\n    \"dunsNo\": \"730249794\",\n    \"name\": \"STOLT UMUSIKALSK ALLIGATOR\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 310223719",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"310223719\",\n    \"dunsNo\": \"517604869\",\n    \"name\": \"FREDELIG TYPISK GIRAFF SPAREBANK\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 312246538",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"312246538\",\n    \"dunsNo\": \"730722654\",\n    \"name\": \"OPPRETT SKAMFULL STRUTS AB\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 312587629",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"312587629\",\n    \"dunsNo\": \"558568809\",\n    \"name\": \"NÆR HÅRSÅR STRUTS LTD\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 312701103",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"312701103\",\n    \"dunsNo\": \"558529488\",\n    \"name\": \"LEKKER GILD STRUTS UAB\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 313513408",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"313513408\",\n    \"dunsNo\": \"548589436\",\n    \"name\": \"FALSK ØDE TIGER AS\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 313513580",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"313513580\",\n    \"dunsNo\": \"671326856\",\n    \"name\": \"OVERSIKTLIG HELLIG TIGER AS\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 314208641",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"314208641\",\n    \"dunsNo\": \"518979075\",\n    \"name\": \"EKSTRA KLOK TIGER AS\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Company 987068752",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"nationality\": \"NO\",\n    \"reference\": \"reference\",\n    \"regNo\": \"987068752\",\n    \"dunsNo\": \"730398950\",\n    \"name\": \"UVERUD WOOD AS\"\n}"
+            },
+            "url": {
+              "raw": "{{api_url}}/aml/v2/company/identify/screening",
+              "host": [
+                "{{api_url}}"
+              ],
+              "path": [
+                "aml",
+                "v2",
+                "company",
+                "identify",
+                "screening"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "/company/identify/screening",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\t\"name\": \"CompAdvRreLtd-1\",\r\n\t\"nationality\": \"GB\",\r\n\t\"reference\": \"Test Screenings\"\r\n}"
+        },
+        "url": {
+          "raw": "{{api_url}}/aml/v2/company/identify/screening",
+          "host": [
+            "{{api_url}}"
+          ],
+          "path": [
+            "aml",
+            "v2",
+            "company",
+            "identify",
+            "screening"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/company/screening",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"reference\": \"sanctions\", \"name\": \"SMAPLEBANK\" }"
+        },
+        "url": {
+          "raw": "{{api_url}}/aml/v2/company/screening",
+          "host": [
+            "{{api_url}}"
+          ],
+          "path": [
+            "aml",
+            "v2",
+            "company",
+            "screening"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/person/identify/screening",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\t\r\n\t\"name\": \"Testperson\",\r\n\t\"natIdNo\": \"SE200303035943\",\r\n\t\"reference\": \"emil_testing_02-bisnode\"\r\n}"
+        },
+        "url": {
+          "raw": "{{api_url}}/aml/v2/person/identify/screening",
+          "host": [
+            "{{api_url}}"
+          ],
+          "path": [
+            "aml",
+            "v2",
+            "person",
+            "identify",
+            "screening"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/person/screening",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\t\"name\": \"Tostado, Federico\",\r\n\t\"birthDate\": \"1965-12-05\",\r\n\t\"reference\": \"Test Screenings\"\r\n}"
+        },
+        "url": {
+          "raw": "{{api_url}}/aml/v2/person/screening",
+          "host": [
+            "{{api_url}}"
+          ],
+          "path": [
+            "aml",
+            "v2",
+            "person",
+            "screening"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "oauth2",
+    "oauth2": [
+      {
+        "key": "clientSecret",
+        "value": "{{client_secret}}",
+        "type": "string"
+      },
+      {
+        "key": "clientId",
+        "value": "{{client_id}}",
+        "type": "string"
+      },
+      {
+        "key": "tokenName",
+        "value": "Token",
+        "type": "string"
+      },
+      {
+        "key": "challengeAlgorithm",
+        "value": "S256",
+        "type": "string"
+      },
+      {
+        "key": "scope",
+        "value": "{{scope}}",
+        "type": "string"
+      },
+      {
+        "key": "grant_type",
+        "value": "client_credentials",
+        "type": "string"
+      },
+      {
+        "key": "addTokenTo",
+        "value": "header",
+        "type": "string"
+      },
+      {
+        "key": "client_authentication",
+        "value": "header",
+        "type": "string"
+      },
+      {
+        "key": "accessTokenUrl",
+        "value": "{{oauth2_url}}",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "api_url",
+      "value": "https://sandbox-api.bisnode.com"
+    },
+    {
+      "key": "oauth2_url",
+      "value": "https://login.bisnode.com/sandbox/v1/token.oauth2"
+    },
+    {
+      "key": "client_id",
+      "value": "4a105282-d4bc-412b-a045-23f6e291920d"
+    },
+    {
+      "key": "client_secret",
+      "value": "*****************************"
+    },
+    {
+      "key": "scope",
+      "value": "b2c_aml_screen b2c_aml_ident_screen b2b_aml_ident_screen b2b_aml_screen"
+    }
+  ]
+}
